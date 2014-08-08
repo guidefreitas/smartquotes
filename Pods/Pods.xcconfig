@@ -1,6 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Parse"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/MPColorTools" "${PODS_ROOT}/Headers/Parse" "${PODS_ROOT}/Headers/SpinKit"
-OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/Facebook-iOS-SDK" "-isystem${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "-isystem${PODS_ROOT}/Headers/MBProgressHUD" "-isystem${PODS_ROOT}/Headers/MPColorTools" "-isystem${PODS_ROOT}/Headers/Parse" "-isystem${PODS_ROOT}/Headers/SpinKit"
-OTHER_LDFLAGS = -ObjC -framework AudioToolbox -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework MobileCoreServices -framework Parse -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Security -weak_framework Social
-PODS_ROOT = ${SRCROOT}/Pods
