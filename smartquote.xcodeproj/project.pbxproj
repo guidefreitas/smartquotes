@@ -21,6 +21,25 @@
 		794416D3188EFA00002DA26E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794416B5188EFA00002DA26E /* UIKit.framework */; };
 		794416DB188EFA00002DA26E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 794416D9188EFA00002DA26E /* InfoPlist.strings */; };
 		794416DD188EFA00002DA26E /* smartquoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794416DC188EFA00002DA26E /* smartquoteTests.m */; };
+		794416EA188EFC2D002DA26E /* icn_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 794416E8188EFC2D002DA26E /* icn_menu.png */; };
+		794416EB188EFC2D002DA26E /* icn_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794416E9188EFC2D002DA26E /* icn_menu@2x.png */; };
+		794416ED188F002B002DA26E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794416EC188F002B002DA26E /* QuartzCore.framework */; };
+		794416F0188F0368002DA26E /* QuotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794416EF188F0368002DA26E /* QuotesTableViewController.m */; };
+		794416F2188F0D38002DA26E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794416F1188F0D38002DA26E /* CoreData.framework */; };
+		794CF7701896C05B005E25E6 /* QuotesRemoteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CF76F1896C05B005E25E6 /* QuotesRemoteLoader.m */; };
+		795071BC18994F7E002344E7 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 795071BB18994F7E002344E7 /* Quote.m */; };
+		796AC19F189154F100FD516F /* DefaultData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 796AC19E189154F100FD516F /* DefaultData.xml */; };
+		797DF1D018A5570E000F4B93 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 797DF1CF18A5570E000F4B93 /* Reachability.m */; };
+		797DF1D218A55D98000F4B93 /* pre_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D118A55D98000F4B93 /* pre_data.plist */; };
+		797DF1D818A58F0B000F4B93 /* bill_gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D318A58F0B000F4B93 /* bill_gates.jpg */; };
+		797DF1D918A58F0B000F4B93 /* guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D418A58F0B000F4B93 /* guy.jpg */; };
+		797DF1DA18A58F0B000F4B93 /* malcolm_gladwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D518A58F0B000F4B93 /* malcolm_gladwell.jpg */; };
+		797DF1DB18A58F0B000F4B93 /* seth_godin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D618A58F0B000F4B93 /* seth_godin.jpg */; };
+		797DF1DC18A58F0B000F4B93 /* steve_jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797DF1D718A58F0B000F4B93 /* steve_jobs.jpg */; };
+		79F980A918902C83006F43D5 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F980A818902C83006F43D5 /* CoreDataHelper.m */; };
+		79F980AD1890366F006F43D5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79F980AB1890366F006F43D5 /* Model.xcdatamodeld */; };
+		79F980B31890A18D006F43D5 /* CoreDataTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F980B21890A18D006F43D5 /* CoreDataTVC.m */; };
+		B6BC1521C1524E5B9792E1F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CBC03EB9F34DA8A4092F3C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1D1D72DFD14529AC8DAD0B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		61CBC03EB9F34DA8A4092F3C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		794416AE188EFA00002DA26E /* smartquote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartquote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		794416B1188EFA00002DA26E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		794416B3188EFA00002DA26E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,30 @@
 		794416D8188EFA00002DA26E /* smartquoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smartquoteTests-Info.plist"; sourceTree = "<group>"; };
 		794416DA188EFA00002DA26E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		794416DC188EFA00002DA26E /* smartquoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smartquoteTests.m; sourceTree = "<group>"; };
+		794416E8188EFC2D002DA26E /* icn_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_menu.png; sourceTree = "<group>"; };
+		794416E9188EFC2D002DA26E /* icn_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_menu@2x.png"; sourceTree = "<group>"; };
+		794416EC188F002B002DA26E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		794416EE188F0368002DA26E /* QuotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotesTableViewController.h; sourceTree = "<group>"; };
+		794416EF188F0368002DA26E /* QuotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotesTableViewController.m; sourceTree = "<group>"; };
+		794416F1188F0D38002DA26E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		794CF76E1896C05B005E25E6 /* QuotesRemoteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotesRemoteLoader.h; sourceTree = "<group>"; };
+		794CF76F1896C05B005E25E6 /* QuotesRemoteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotesRemoteLoader.m; sourceTree = "<group>"; };
+		795071BA18994F7E002344E7 /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
+		795071BB18994F7E002344E7 /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		796AC19E189154F100FD516F /* DefaultData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DefaultData.xml; sourceTree = "<group>"; };
+		797DF1CE18A5570E000F4B93 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		797DF1CF18A5570E000F4B93 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		797DF1D118A55D98000F4B93 /* pre_data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pre_data.plist; sourceTree = "<group>"; };
+		797DF1D318A58F0B000F4B93 /* bill_gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bill_gates.jpg; sourceTree = "<group>"; };
+		797DF1D418A58F0B000F4B93 /* guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guy.jpg; sourceTree = "<group>"; };
+		797DF1D518A58F0B000F4B93 /* malcolm_gladwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malcolm_gladwell.jpg; sourceTree = "<group>"; };
+		797DF1D618A58F0B000F4B93 /* seth_godin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seth_godin.jpg; sourceTree = "<group>"; };
+		797DF1D718A58F0B000F4B93 /* steve_jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve_jobs.jpg; sourceTree = "<group>"; };
+		79F980A718902C83006F43D5 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		79F980A818902C83006F43D5 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		79F980AC1890366F006F43D5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		79F980B11890A18D006F43D5 /* CoreDataTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTVC.h; sourceTree = "<group>"; };
+		79F980B21890A18D006F43D5 /* CoreDataTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +105,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794416F2188F0D38002DA26E /* CoreData.framework in Frameworks */,
+				794416ED188F002B002DA26E /* QuartzCore.framework in Frameworks */,
 				794416B4188EFA00002DA26E /* CoreGraphics.framework in Frameworks */,
 				794416B6188EFA00002DA26E /* UIKit.framework in Frameworks */,
 				794416B2188EFA00002DA26E /* Foundation.framework in Frameworks */,
+				B6BC1521C1524E5B9792E1F7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +127,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790E334818A5430900BFF7D6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		794416A5188EFA00002DA26E = {
 			isa = PBXGroup;
 			children = (
 				794416B7188EFA00002DA26E /* smartquote */,
 				794416D6188EFA00002DA26E /* smartquoteTests */,
 				794416B0188EFA00002DA26E /* Frameworks */,
-				794416AF188EFA00002DA26E /* Products */,
+				0B1D1D72DFD14529AC8DAD0B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +156,14 @@
 		794416B0188EFA00002DA26E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				794416AF188EFA00002DA26E /* Products */,
+				794416F1188F0D38002DA26E /* CoreData.framework */,
+				794416EC188F002B002DA26E /* QuartzCore.framework */,
 				794416B1188EFA00002DA26E /* Foundation.framework */,
 				794416B3188EFA00002DA26E /* CoreGraphics.framework */,
 				794416B5188EFA00002DA26E /* UIKit.framework */,
 				794416D0188EFA00002DA26E /* XCTest.framework */,
+				61CBC03EB9F34DA8A4092F3C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +171,17 @@
 		794416B7188EFA00002DA26E /* smartquote */ = {
 			isa = PBXGroup;
 			children = (
+				790E334818A5430900BFF7D6 /* iPad */,
+				794CF76D1896C045005E25E6 /* Remote */,
+				79F980AA1890364D006F43D5 /* Models */,
+				79F980A618902C4A006F43D5 /* Controllers */,
+				79F980A518902C41006F43D5 /* CoreData */,
+				79F980A418902C32006F43D5 /* Assets */,
 				794416C0188EFA00002DA26E /* AppDelegate.h */,
 				794416C1188EFA00002DA26E /* AppDelegate.m */,
+				797DF1CE18A5570E000F4B93 /* Reachability.h */,
+				797DF1CF18A5570E000F4B93 /* Reachability.m */,
 				794416C3188EFA00002DA26E /* Main.storyboard */,
-				794416C6188EFA00002DA26E /* ViewController.h */,
-				794416C7188EFA00002DA26E /* ViewController.m */,
 				794416C9188EFA00002DA26E /* Images.xcassets */,
 				794416B8188EFA00002DA26E /* Supporting Files */,
 			);
@@ -152,6 +217,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		794CF76D1896C045005E25E6 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				794CF76E1896C05B005E25E6 /* QuotesRemoteLoader.h */,
+				794CF76F1896C05B005E25E6 /* QuotesRemoteLoader.m */,
+			);
+			name = Remote;
+			sourceTree = "<group>";
+		};
+		79F980A418902C32006F43D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				797DF1D318A58F0B000F4B93 /* bill_gates.jpg */,
+				797DF1D418A58F0B000F4B93 /* guy.jpg */,
+				797DF1D518A58F0B000F4B93 /* malcolm_gladwell.jpg */,
+				797DF1D618A58F0B000F4B93 /* seth_godin.jpg */,
+				797DF1D718A58F0B000F4B93 /* steve_jobs.jpg */,
+				794416E8188EFC2D002DA26E /* icn_menu.png */,
+				794416E9188EFC2D002DA26E /* icn_menu@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		79F980A518902C41006F43D5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				79F980A718902C83006F43D5 /* CoreDataHelper.h */,
+				79F980A818902C83006F43D5 /* CoreDataHelper.m */,
+				79F980B11890A18D006F43D5 /* CoreDataTVC.h */,
+				79F980B21890A18D006F43D5 /* CoreDataTVC.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		79F980A618902C4A006F43D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				794416C6188EFA00002DA26E /* ViewController.h */,
+				794416C7188EFA00002DA26E /* ViewController.m */,
+				794416EE188F0368002DA26E /* QuotesTableViewController.h */,
+				794416EF188F0368002DA26E /* QuotesTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		79F980AA1890364D006F43D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79F980AB1890366F006F43D5 /* Model.xcdatamodeld */,
+				795071BA18994F7E002344E7 /* Quote.h */,
+				795071BB18994F7E002344E7 /* Quote.m */,
+				796AC19E189154F100FD516F /* DefaultData.xml */,
+				797DF1D118A55D98000F4B93 /* pre_data.plist */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 794416E0188EFA00002DA26E /* Build configuration list for PBXNativeTarget "smartquote" */;
 			buildPhases = (
+				0AF29A93EF394A38851345CA /* Check Pods Manifest.lock */,
 				794416AA188EFA00002DA26E /* Sources */,
 				794416AB188EFA00002DA26E /* Frameworks */,
 				794416AC188EFA00002DA26E /* Resources */,
+				B3C66F227EA04BF08C6ABD18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +323,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = guidefreitas;
 				TargetAttributes = {
+					794416AD188EFA00002DA26E = {
+						DevelopmentTeam = 9472NLB327;
+					};
 					794416CE188EFA00002DA26E = {
 						TestTargetID = 794416AD188EFA00002DA26E;
 					};
@@ -228,8 +355,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797DF1D218A55D98000F4B93 /* pre_data.plist in Resources */,
 				794416CA188EFA00002DA26E /* Images.xcassets in Resources */,
+				796AC19F189154F100FD516F /* DefaultData.xml in Resources */,
+				797DF1D818A58F0B000F4B93 /* bill_gates.jpg in Resources */,
+				797DF1DB18A58F0B000F4B93 /* seth_godin.jpg in Resources */,
 				794416BC188EFA00002DA26E /* InfoPlist.strings in Resources */,
+				794416EB188EFC2D002DA26E /* icn_menu@2x.png in Resources */,
+				797DF1D918A58F0B000F4B93 /* guy.jpg in Resources */,
+				797DF1DA18A58F0B000F4B93 /* malcolm_gladwell.jpg in Resources */,
+				797DF1DC18A58F0B000F4B93 /* steve_jobs.jpg in Resources */,
+				794416EA188EFC2D002DA26E /* icn_menu.png in Resources */,
 				794416C5188EFA00002DA26E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +380,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF29A93EF394A38851345CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C66F227EA04BF08C6ABD18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		794416AA188EFA00002DA26E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795071BC18994F7E002344E7 /* Quote.m in Sources */,
+				794CF7701896C05B005E25E6 /* QuotesRemoteLoader.m in Sources */,
+				79F980B31890A18D006F43D5 /* CoreDataTVC.m in Sources */,
 				794416C8188EFA00002DA26E /* ViewController.m in Sources */,
+				797DF1D018A5570E000F4B93 /* Reachability.m in Sources */,
 				794416C2188EFA00002DA26E /* AppDelegate.m in Sources */,
+				794416F0188F0368002DA26E /* QuotesTableViewController.m in Sources */,
+				79F980A918902C83006F43D5 /* CoreDataHelper.m in Sources */,
 				794416BE188EFA00002DA26E /* main.m in Sources */,
+				79F980AD1890366F006F43D5 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -373,26 +549,36 @@
 		};
 		794416E1188EFA00002DA26E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1D1D72DFD14529AC8DAD0B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guilherme Juraszek (NZ3A287KEZ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smartquote/smartquote-Prefix.pch";
 				INFOPLIST_FILE = "smartquote/smartquote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7D21EC12-A701-474A-A053-308717386353";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		794416E2188EFA00002DA26E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1D1D72DFD14529AC8DAD0B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guilherme Juraszek (9472NLB327)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smartquote/smartquote-Prefix.pch";
 				INFOPLIST_FILE = "smartquote/smartquote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5438D1B9-6366-4798-8DA9-5BB1D6B0BFBC";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +642,7 @@
 				794416E2188EFA00002DA26E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794416E3188EFA00002DA26E /* Build configuration list for PBXNativeTarget "smartquoteTests" */ = {
 			isa = XCConfigurationList;
@@ -464,8 +651,22 @@
 				794416E5188EFA00002DA26E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79F980AB1890366F006F43D5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79F980AC1890366F006F43D5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 79F980AC1890366F006F43D5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 794416A6188EFA00002DA26E /* Project object */;
 }

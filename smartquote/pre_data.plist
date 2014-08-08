@@ -1,5 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>quotes</key>
+	<array>
+		<dict>
+			<key>quoteUUID</key>
+			<string>kUaJnioAMg</string>
+			<key>quote</key>
+			<string>The only thing worse than starting something and failing… is not starting something.</string>
+			<key>author</key>
+			<string>Seth Godin</string>
+			<key>backgroundColor</key>
+			<string>FFCD01</string>
+			<key>company</key>
+			<string>Squidoo</string>
+			<key>createdAt</key>
+			<date>2014-01-28T00:15:56Z</date>
+			<key>quoteNumber</key>
+			<integer>1</integer>
+			<key>updatedAt</key>
+			<date>2014-01-29T15:51:18Z</date>
+			<key>coverImageName</key>
+			<string>seth_godin.jpg</string>
+		</dict>
+		<dict>
+			<key>quoteUUID</key>
+			<string>0jJqFMwAek</string>
+			<key>quote</key>
+			<string>It’s not how much money we make that ultimately makes us happy between 9 and 5. It’s whether our work fulfills us.</string>
+			<key>author</key>
+			<string>Malcolm Gladwell</string>
+			<key>backgroundColor</key>
+			<string>151515</string>
+			<key>company</key>
+			<string>The Tipping Point</string>
+			<key>createdAt</key>
+			<date>2014-01-28T00:21:22Z</date>
+			<key>quoteNumber</key>
+			<integer>2</integer>
+			<key>updatedAt</key>
+			<date>2014-01-29T15:51:19Z</date>
+			<key>coverImageName</key>
+			<string>malcolm_gladwell.jpg</string>
+		</dict>
+		<dict>
+			<key>quoteUUID</key>
+			<string>XfmZjffe8e</string>
+			<key>quote</key>
+			<string>Ideas are easy. Implementation is hard.</string>
+			<key>author</key>
+			<string>Guy Kawasaki</string>
+			<key>backgroundColor</key>
+			<string>D94E22</string>
+			<key>company</key>
+			<string>AllTop</string>
+			<key>createdAt</key>
+			<date>2014-01-28T00:23:50Z</date>
+			<key>quoteNumber</key>
+			<integer>3</integer>
+			<key>updatedAt</key>
+			<date>2014-01-29T16:03:48Z</date>
+			<key>coverImageName</key>
+			<string>guy.jpg</string>
+		</dict>
+		<dict>
+			<key>quoteUUID</key>
+			<string>JeijkWR0Hy</string>
+			<key>quote</key>
+			<string>Your most unhappy customers are your greatest source of learning.</string>
+			<key>author</key>
+			<string>Bill Gates</string>
+			<key>backgroundColor</key>
+			<string>024978</string>
+			<key>company</key>
+			<string>Microsoft</string>
+			<key>createdAt</key>
+			<date>2014-01-28T00:26:00Z</date>
+			<key>quoteNumber</key>
+			<integer>4</integer>
+			<key>updatedAt</key>
+			<date>2014-01-29T15:29:52Z</date>
+			<key>coverImageName</key>
+			<string>bill_gates.jpg</string>
+		</dict>
+		<dict>
+			<key>quoteUUID</key>
+			<string>zQKzuKSHDE</string>
+			<key>quote</key>
+			<string>Why join the navy if you can be a pirate?</string>
+			<key>author</key>
+			<string>Steve Jobs</string>
+			<key>backgroundColor</key>
+			<string>212121</string>
+			<key>company</key>
+			<string>Apple</string>
+			<key>createdAt</key>
+			<date>2014-01-28T00:28:15Z</date>
+			<key>quoteNumber</key>
+			<integer>5</integer>
+			<key>updatedAt</key>
+			<date>2014-01-29T15:29:51Z</date>
+			<key>coverImageName</key>
+			<string>steve_jobs.jpg</string>
+		</dict>
+	</array>
+</dict>
 </plist>

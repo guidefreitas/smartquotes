@@ -7,13 +7,100 @@
 //
 
 #import "AppDelegate.h"
+#import "Quote.h"
+
+#define debug 0
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"NeVw15MKdJp3t2UUzZ47fXD28eYegvkm9gejaM1o"
+                  clientKey:@"vNtXr3g45L85flCNP8PYwkDTMtbmf05CxLK9SFCy"];
+    
+    //[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [self cdh];
+    //[self demo];
     return YES;
+}
+
+- (void)demo {
+    if (debug==1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    }
+    
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Quote"];
+    NSError *error = nil;
+    NSUInteger count = [_coreDataHelper.context countForFetchRequest:request error:&error];
+    NSLog(@"Count: %i", count);
+    if(count == NSNotFound || count == 0) {
+        Quote *quote = [NSEntityDescription insertNewObjectForEntityForName:@"Quote" inManagedObjectContext:_coreDataHelper.context];
+        quote.quote = @"Always choose your investors based on who you want to work with, be friends with, and get advice from. Never, ever, choose your investors based on valuation.";
+        quote.author = @"Jason Goldberg";
+        quote.quoteNumber = [[NSNumber alloc]initWithInt:1];
+        quote.company = @"FAB";
+        quote.backgroundColor = @"D71417";
+        UIImage *image = [UIImage imageNamed:@"ive"];
+        NSData *imageData = UIImagePNGRepresentation(image);
+        quote.coverImage = imageData;
+        
+        
+        Quote *quote2 = [NSEntityDescription insertNewObjectForEntityForName:@"Quote" inManagedObjectContext:_coreDataHelper.context];
+        quote2.quote = @"I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.";
+        quote2.author = @"Jeff Bezos";
+        quote2.quoteNumber = [[NSNumber alloc]initWithInt:2];
+        quote2.company = @"Amazon";
+        quote2.backgroundColor = @"FF9A01";
+        UIImage *image2 = [UIImage imageNamed:@"ive"];
+        NSData *imageData2 = UIImagePNGRepresentation(image2);
+        quote2.coverImage = imageData2;
+        
+        Quote *quote3 = [NSEntityDescription insertNewObjectForEntityForName:@"Quote" inManagedObjectContext:_coreDataHelper.context];
+        quote3.quote = @"It’s very easy to be different, but very difficult to be better.";
+        quote3.author = @"Jonathan Ive";
+        quote3.quoteNumber = [[NSNumber alloc]initWithInt:3];
+        quote3.company = @"Apple";
+        quote3.backgroundColor = @"9D9D9D";
+        UIImage *image3 = [UIImage imageNamed:@"ive"];
+        NSData *imageData3 = UIImagePNGRepresentation(image3);
+        quote3.coverImage = imageData3;
+        
+        Quote *quote4 = [NSEntityDescription insertNewObjectForEntityForName:@"Quote" inManagedObjectContext:_coreDataHelper.context];
+        quote4.quote = @"As a startup CEO, I slept like a baby. I woke up every 2 hours and cried.";
+        quote4.author = @"Ben Horowitz";
+        quote4.quoteNumber = [[NSNumber alloc]initWithInt:4];
+        quote4.company = @"Horowitz";
+        quote4.backgroundColor = @"406171";
+        UIImage *image4 = [UIImage imageNamed:@"ive"];
+        NSData *imageData4 = UIImagePNGRepresentation(image4);
+        quote4.coverImage = imageData4;
+        
+        Quote *quote5 = [NSEntityDescription insertNewObjectForEntityForName:@"Quote" inManagedObjectContext:_coreDataHelper.context];
+        quote5.quote = @"Don’t worry about failure, you only have to be right once.";
+        quote5.author = @"Drew Houston";
+        quote5.quoteNumber = [[NSNumber alloc]initWithInt:5];
+        quote5.company = @"Dropbox";
+        quote5.backgroundColor = @"1F76CD";
+        UIImage *image5 = [UIImage imageNamed:@"ive"];
+        NSData *imageData5 = UIImagePNGRepresentation(image5);
+        quote5.coverImage = imageData5;
+        
+        [[self cdh] saveContext];
+    }
+}
+
+- (CoreDataHelper*)cdh {
+    if (debug==1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd)); }
+    if (!_coreDataHelper) {
+        static dispatch_once_t predicate;
+        dispatch_once(&predicate, ^{
+            _coreDataHelper = [CoreDataHelper new];
+        });
+        [_coreDataHelper setupCoreData];
+    }
+    return _coreDataHelper;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -24,8 +111,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [[self cdh] saveContext];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -35,12 +121,12 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [self cdh];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[self cdh] saveContext];
 }
 
 @end

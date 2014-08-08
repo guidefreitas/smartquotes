@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataHelper.h"
 
-@interface CoreDataTVC : UITableViewController
+@interface CoreDataTVC : UITableViewController <NSFetchedResultsControllerDelegate>
+
+@property (strong, nonatomic) NSFetchedResultsController *frc;
+
+- (void) performFetch;
 
 @end

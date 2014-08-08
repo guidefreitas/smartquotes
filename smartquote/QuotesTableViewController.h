@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataTVC.h"
+#import "QuotesRemoteLoader.h"
+#import <SpinKit/RTSpinKitView.h>
 
-@interface QuotesTableViewController : UITableViewController
+@interface QuotesTableViewController : CoreDataTVC{
+    UIView *loadingView;
+    UIView *fullscreenMessageView;
+    UIView *messageView;
+    BOOL loadingRemoteData;
+    BOOL tableViewFinishLoading;
+}
+
+@property (nonatomic, readonly) QuotesRemoteLoader *quotesRemoteLoader;
+@property (nonatomic, readonly) CoreDataHelper *cdh;
 
 @end
