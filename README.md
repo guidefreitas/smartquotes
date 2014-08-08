@@ -6,5 +6,6 @@ The application is called [Quotees and is available at App Store](https://itunes
 
 Don't forget to install the dependencies with cocoapods :)
 
-  cd smartquote
-  pod install
+cd smartquote
+
+pod install
